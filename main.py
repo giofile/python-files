@@ -81,6 +81,6 @@ def find_password(cached_list):
 if __name__ == '__main__':
     clean_cache()
     cache_zip(zip_files, cache_path)
-    print(cached_files())
+    # print(cached_files())
     cached_files = cached_files()
     print(find_password(cached_files))
